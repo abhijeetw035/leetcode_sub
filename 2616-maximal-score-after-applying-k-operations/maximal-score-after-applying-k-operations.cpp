@@ -10,8 +10,7 @@ public:
             int temp = pq.top();
             ans += temp;
             pq.pop();
-            pq.push(ceil(temp*1.0/3.0
-            ));
+            pq.push(ceil(temp*1.0/3.0));
         }
         return ans;
     }
